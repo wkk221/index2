@@ -12933,13 +12933,7 @@ function countDown(option){
 
 //# 登陆条
 (function () {
-    //## 元素的赛选 $("[rel=js-navmenu__item]")
-    /*
-    *   [ rel=js-siteNav ]  c-Alist--switchCity  c-Alist__item
-    [ rel=js-siteNav ]  c-Alist--switchSite  c-Alist__arrow
-    [ rel=js-siteNav ]  c-Alist--switchSite  c-Alist__QrCode
-    *
-    * */
+    
     var e_siteNav = [
         "[ rel=js-siteNav ] .c-Alist--switchCity .c-Alist__citys",
         "[ rel=js-siteNav ] .c-Alist--switchSite .c-Alist__arrow",
